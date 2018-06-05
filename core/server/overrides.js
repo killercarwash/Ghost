@@ -1,4 +1,5 @@
 const moment = require('moment-timezone');
+const {extract, hasProvider} = require('oembed-parser'); // eslint-disable-line
 
 /**
  * force UTC
